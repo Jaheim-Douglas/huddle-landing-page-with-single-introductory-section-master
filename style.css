@@ -1,0 +1,123 @@
+body {
+    background-color: hsl(257, 40%, 49%);
+    padding: 35px;
+    height: 650px;
+}
+
+#logo {
+    width: 125px;
+}
+
+#background-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#illustration-mockup {
+    width: 300px;
+    position: relative;
+    top: 35px;
+
+}
+
+#heading-1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+#text-container {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+}
+
+#text-container p {
+    font-weight: lighter;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+
+#text-container button {
+    padding: 15px;
+    width: 75%;
+    border-radius: 20px;
+    border: none;
+    color: hsl(257, 40%, 49%);
+    box-shadow: 2px 14px 34px 6px rgba(0,0,0,0.36);
+    cursor: pointer;
+}
+
+#text-container button:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+#icon-container {
+    margin-top: 70px;
+    color: white;
+    justify-content: space-around;
+    display: flex;
+}
+
+#icon-container ion-icon {
+    border: 1px white solid;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#icon-container ion-icon:hover {
+    color: hsl(300, 69%, 71%);
+    border: 1px hsl(300, 69%, 71%) solid;
+}
+
+@media (min-width:400px) {
+    body {
+        background-image: url(images/bg-desktop.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #logo {
+        position: absolute;
+    }
+
+    #illustration-mockup {
+        width: 550px;
+    }
+
+    #text-container button {
+        width: 150px;
+    }
+
+    #text-container {
+        margin-left: 150px;
+    }
+
+    #text-container {
+        text-align: left;
+    }
+
+    #text-img-container {
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        margin-top: 50px;
+    }
+
+    #icon-container {
+        display: flex;
+        justify-content: right;
+    }
+
+    #face {
+        margin-right: 10px;
+    }
+
+    #insta {
+        margin-left: 10px;
+    }
+}
